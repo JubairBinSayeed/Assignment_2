@@ -38,61 +38,67 @@
     display: flex;
     padding: 10px 10px;
 }
+.menu{
+    padding-left: 50px right 50px;
+    margin-top: 40px;
+    width: 50px;
+    height: 30px;
+}
 /*nav-bar-ending*/
 /*banner-section*/
+.banner-section{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+    margin: 10px 200px;
+    border: 5px;
+    border-radius: 20px;
+}
 .banner-title{
+    padding-top: 106px;
+    padding-left: 440px;
+    display: flex;
+    gap: 24px;
     font-size: 62px;
+    font-weight: 800;
     color: #FFF;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding-top: 90px;
-   padding-bottom: 500px;
-   background-repeat: no-repeat;
-   margin-left: 270px;
-   padding-left: 50px;
-   scrollbar-width: none;
-   background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
 }
 .banner-subtitle{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 440px;
     font-size: 16px;
     font-weight: 400;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 20px ;
+    color: #FFF;
+}
+.banner-input-section{
+    border: 10px solid rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+}
+.where-to-go{
+    list-style: none;
+}
+/*banner-section-ending*/
+.banner-input-section-bar{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 10px solid #FFF;
+    font-size: 16px;
+    font-weight: 400; 
+    gap: 24px;
 }
 /*Media-Query-Settings*/
 @media screen and (max-width:576px) {
-    .nav-image{
-        width: 29px;
-        height: 34px;
-        padding-top: 15px;
-    }
-    .nav-logo{
-        font-size: 22px; 
-    }
-    .nav-bar{
-        align-items: center;
-        padding: 0px 10px;
-    }
-    .menu{
-        display: flex;
-        justify-content: center;
-        padding-left: 150px;
-        padding-bottom: 100px;
-        width: 24px;
-        height: 24px;
-        flex-shrink: 0;
-        margin-bottom: 50px;
-    }
-    .banner-title{
-        width: 335px;
-        height: 483px;
-        display: flex;
-        justify-content: baseline;
-    }
-    .banner-title{
-        flex-direction: column;
+    .banner-section{
+        background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        padding-bottom: 500px;
+        margin: 10px 200px;
+        border: 5px;
+        border-radius: 20px;
     }
 }
