@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 *{
     font-family: 'Mulish', sans-serif;
 }
@@ -122,16 +123,67 @@
     font-weight: 400;
     margin-left: 180px;
 }
-/*banner-section-ending*/
-/*Media-Query-Settings*/
-@media screen and (max-width:992px) {
-    .banner-section{
-        background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
-        background-repeat: no-repeat;
-        border: 5px;
-        border-radius: 20px;
-        margin-left: auto;
-        width: 335px;
-        height: 483px;
-    }
+.Popular-reviews{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 180px;
+    grid-column: 1;
 }
+#Popular-reviews-paras-one{
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+#Popular-reviews-paras-two{
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+#Popular-reviews-para-three{
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+.Popular-image{
+    height: 90%;
+    margin-left: 1250px;
+    padding-bottom: 500px;
+}
+/*Image-section*/
+.image-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.image-subtitle{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*Footer-section*/
+.logo{
+    width: 25px;
+}
+.footer{
+    align-items: center;
+}
+.nav-logo-two{
+    margin-left: 20px;
+    color: #131318;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px; 
+    font-weight: 300;
+}
+.nav-image-two{
+    margin-left: 800px;
+}
+.footer-travels{
+    color: #FF5400; 
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px; 
+    font-weight: 300;
+}
+/*Footer-section-ending*/
+/*Image-section-ending*/
+/*banner-section-ending*/
