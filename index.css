@@ -164,6 +164,9 @@
 .logo{
     width: 25px;
 }
+.logo-two{
+    margin-left: 900px;
+}
 .footer{
     align-items: center;
 }
@@ -176,6 +179,7 @@
 }
 .nav-image-two{
     margin-left: 800px;
+    width: 5%;
 }
 .footer-travels{
     color: #FF5400; 
@@ -183,6 +187,15 @@
     font-family: 'Inter', sans-serif;
     font-size: 32px; 
     font-weight: 300;
+}
+.Follow{
+    margin-left: 900px;
+}
+.hr{
+    margin: auto 500px;
+}
+.ending{
+    margin-left: 850px;
 }
 /*Footer-section-ending*/
 /*Image-section-ending*/
