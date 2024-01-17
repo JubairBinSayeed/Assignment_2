@@ -177,6 +177,58 @@
     margin-top: 24px;
     margin-left: 350px;
 }
+/*Why-choose-us-section*/
+.why-choose-us-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose-us-subtitle{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*card-section*/
+.card-one{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 284px;
+    height: 230px;
+}
+.card-two{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 284px;
+    height: 230px;
+}
+.card-three{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 284px;
+    height: 230px;
+    margin-top: 24px;
+    margin-left: 850px;
+}
+.card-section{
+    display: flex;
+    gap: 24px;
+    margin-left: 700px;
+}
+.why-choose-us-title-two{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+/*card-section-ending*/
+/*Why-choose-us-section-ending*/
+/*A-Simple-Perfect-Place-To-Get-Lost*/
+
+/*A-Simple-Perfect-Place-To-Get-Lost-Ending*/
 /*Footer-section*/
 .logo{
     width: 25px;
